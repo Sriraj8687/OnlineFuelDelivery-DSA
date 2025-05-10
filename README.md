@@ -4,46 +4,46 @@ The Online Fuel Delivery Management System is a Java-based application designed 
 The project uses HashMap for managing driver details, PriorityQueue (Heap) for prioritizing customers based on payment amount, and other core DSA techniques like iteration and polling to efficiently assign drivers and process orders.
 
 Features:
-Customer Order Management:
+• Customer Order Management:
 
 Customers can input their details (name, phone number, location, fuel type, payment amount).
 
 The system stores and processes customer orders.
 
-Driver Management:
+• Driver Management:
 
 A set of available drivers is managed in a HashMap, where each driver can be assigned to a delivery based on availability.
 
-Order Prioritization:
+• Order Prioritization:
 
 Customers are queued in a PriorityQueue based on their payment amount. The customer with the highest payment gets the highest priority for delivery.
 
-Driver Assignment:
+• Driver Assignment:
 
 The system assigns available drivers to the highest-priority customer orders. If no driver is available, it notifies the system.
 
-Efficient Delivery Assignment:
+• Efficient Delivery Assignment:
 
 The system employs PriorityQueue for efficient order sorting and HashMap for quick lookup and driver management.
 
 DSA Concepts Used:
-HashMap:
+1. HashMap:
 
 Used for storing and managing driver details. Each driver is stored with a key (driver’s name) and value (driver object).
 
 O(1) access time for checking if a driver is available.
 
-PriorityQueue (Heap):
+2. PriorityQueue (Heap):
 
 Used to store customer orders. The orders are sorted based on payment amount, with the highest-paying orders given priority.
 
 Ensures that the system processes the most lucrative orders first.
 
-Poll (PriorityQueue Method):
+3. Poll (PriorityQueue Method):
 
 Retrieves and removes the highest-priority order (customer with the highest payment).
 
-Iteration over HashMap:
+4. Iteration over HashMap:
 
 Iterates over the driver collection to find the first available driver for the customer order.
 
