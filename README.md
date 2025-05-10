@@ -54,33 +54,3 @@ Data Structures: HashMap, PriorityQueue, Comparator
 
 Algorithms: Sorting (for PriorityQueue), Iteration
 
-Setup Instructions:
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/online-fuel-delivery-system.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd online-fuel-delivery-system
-Compile and run the Java program:
-
-bash
-Copy
-Edit
-javac FuelDeliverySystem.java
-java FuelDeliverySystem
-Follow the interactive prompt to input customer orders and manage the fuel delivery process.
-
-Usage Example:
-Add multiple drivers to the system.
-
-Input customer details like name, phone number, location, fuel type, and payment amount.
-
-The system assigns the highest-paying orders to available drivers.
-
-Completed deliveries are displayed.
